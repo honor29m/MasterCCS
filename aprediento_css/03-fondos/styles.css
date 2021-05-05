@@ -1,0 +1,29 @@
+body {
+    background-color: #ccc;
+    text-align: justify;
+    text-indent: 15px; /*encerrado en cada etiqueta parrafo*/
+    /*
+    word-spacing: 1opx;
+    letter-spacing: 5px;
+    /* imagen de fondo: en la carpeta img */
+    /* background-img: url(img/imagen.jpg) */
+}
+
+#caja {
+    border: 5px solid black;
+    padding: 10px;
+    background-color: rgb(94,131,212);
+    color: white;
+    font-family: "Open Sans";
+    text-align: center;
+    /*line-height: 50px;*/
+    text-transform: uppercase;
+    text-decoration: underline;
+    vertical-align: top;
+}
+
+h2 {
+    color: red;
+    background-color: white;
+    border: 5px solid red;
+}

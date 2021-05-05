@@ -1,0 +1,42 @@
+/*
+Agregar una nueva fuente personalizada, por link en html o hacer esto en css con la fuentes descargada
+@font-face{
+    font-family: MonserratFuenteCustom; //nombre de la fuente descargada.
+    src: url(fonts/Monserrat/Monserrat-Regular.ttf);
+}    
+*/
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif; /*estoy escogino un tipo de fuente*/
+    /*font-family: 'Monsalva',cursive;*/
+    font-style: initial;
+    text-transform: uppercase;
+    font-size: 40px;
+
+    /* Colores */
+    /* Color Picker - el de google esta muy bien.*/
+
+    /* Colores del sistema - PUEDO BUSCARLO EN GOOGLE CON NICKNAME */
+    color: MediumPurple;
+
+    /* Colores hexadecimales - En internet se puede encontrar el color hexadecimal*/
+    color: #a51919;
+    color: transparent;
+    
+    /* Colores RGB - En internet lo puedo encontrar */
+    color: rgb(255, 225, 107);
+
+    /* Colores RGBA (A: Opacidad-transparencia) */
+    color: rgba(255, 225, 107, 10)
+}
+
+h3 {
+    font-family: "Comic Sans MS";
+    font-size: 20px;
+}
+
+p {
+    font-family: sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
